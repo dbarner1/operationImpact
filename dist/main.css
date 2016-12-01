@@ -29,3 +29,21 @@ input {
 	min-width:80%;
 	height:5%;
 }
+
+#results {
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	border:1px solid black;
+	height:100%;
+	width:100%;
+	margin-top:5%;
+
+}
+
+.result {
+	border:1px solid red;
+	width:80%;
+	margin:2% auto;
+	padding:5%;
+}

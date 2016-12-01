@@ -30,26 +30,10 @@ window.addEventListener("keypress", function (event) {
 	}
 })
 
+window.onload = function() {
+  currentPageInputField.focus();
+}
 
-//Get session variables and show on results page.
-var results = document.getElementById("results");
-
-if(results != null) {
-
-	var email = sessionStorage.getItem('email');
-	var userFrom = sessionStorage.getItem('userFrom');
-	var interests = sessionStorage.getItem('interests');
-	var skills = sessionStorage.getItem('skills');
-	var passions = sessionStorage.getItem('passions');
-	var results = document.getElementById("results");
-
-	window.onload = function () {
-
-	results.innerHTML = email + "," + userFrom + "," + interests + "," + skills, + "," + passions;
-
-	}
-
-};
 
 
 
