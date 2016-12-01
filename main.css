@@ -1,0 +1,24 @@
+header a, header h1 {
+	text-align:center;
+	text-decoration:none;
+}
+
+.main {
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	width:100vw;
+}
+
+button {
+	width: 50%;
+}
+
+a.button {
+	height:10%;
+	margin: 3% 25% 0 25%;
+}
+
+label {
+	display:block;
+}
